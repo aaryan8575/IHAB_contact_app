@@ -1,0 +1,107 @@
+.graphcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  margin: 100px auto;
+  height: 539px;
+  width: 802px;
+  border-radius: 20px;
+  background: #e9ecfb;
+}
+/* .hr{
+  @apply w-full;
+border: 1.33922px solid #E5E5EF;
+} */
+.graph {
+  height: 400px;
+  width: 639px;
+  background-color: white;
+  border-radius: 26.7843px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.Analytics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 34px;
+}
+
+.Analytics p {
+  font-family: "Plus Jakarta Display";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 10px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.Analytics a {
+  font-family: "Plus Jakarta Display";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2242d8;
+  margin-top: 10px;
+  display: flex;
+}
+
+.avgtime {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -30px;
+}
+
+.avgtime h1 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20.1059px;
+  line-height: 22px;
+  color: #9291a5;
+}
+
+.avgtime h3 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20.4627px;
+  line-height: 35px;
+  margin-top: -30px;
+  padding-left: 4px;
+  color: #1e1b39;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .graphcard {
+    width: 600px;
+  }
+
+  .graph {
+    width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .graphcard {
+    width: 400px;
+  }
+
+  .graph {
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .graphcard {
+    width: 300px;
+  }
+
+  .graph {
+    width: 200px;
+  }
+}

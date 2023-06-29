@@ -1,0 +1,35 @@
+.navBar {
+	@apply sticky top-0 h-screen overflow-y-scroll hidden sm:flex flex-col gap-10 justify-between py-8 border-r-[1px] border-primary;
+}
+
+.logoWrapper {
+	@apply flex gap-4 justify-center items-center;
+}
+
+.logo {
+	@apply flex items-center;
+}
+
+.logoText {
+	@apply hidden lg:block font-medium text-primary text-xl sm:text-3xl;
+}
+
+.navLinkWrapper {
+	@apply flex flex-col gap-2;
+}
+
+.btnWrapper {
+	@apply flex gap-4 justify-center items-center pt-10 pb-20;
+}
+
+.userBtn {
+	@apply w-auto h-auto sm:w-12 sm:h-12 lg:w-auto lg:h-auto flex items-center justify-center gap-2 p-1 pl-1 pr-4 py-1 bg-secondary rounded-full cursor-pointer;
+}
+
+.btnIcon {
+	@apply relative h-12 w-12 scale-75 flex items-center;
+}
+
+.btnText {
+	@apply block sm:hidden lg:inline-block text-primary;
+}

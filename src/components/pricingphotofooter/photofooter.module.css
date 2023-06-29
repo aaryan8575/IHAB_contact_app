@@ -1,0 +1,63 @@
+.section {
+  @apply bg-primary bg-opacity-25 relative;
+}
+
+.footerview {
+  @apply bg-primary w-full px-4 md: px-20 py-12 z-20 flex justify-center flex-col gap-10 md:flex-row 2xl:h-60 2xl:w-screen;
+  word-wrap: break-word;
+}
+
+.footercontent {
+  @apply w-full md: w-[55%] flex flex-wrap gap-5 relative order-2 md:order-1;
+}
+
+.maintext {
+  @apply text-white text-4xl font-medium;
+}
+
+.subtext {
+  @apply text-white font-normal;
+}
+
+.buttons {
+  @apply w-full md: w-[47%] flex items-center justify-center order-1 md:order-2;
+}
+
+/* FOOTER */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 50px auto;
+  justify-content: center;
+  @apply mr-7 ml-7 max-sm: grid-cols-1;
+}
+
+.logo {
+  @apply flex;
+}
+
+.image {
+  @apply h-12 mr-5 mt-2;
+}
+
+.addressicons {
+  @apply flex mt-3;
+}
+
+.icon {
+  @apply flex mr-3;
+}
+
+.hr {
+  @apply bg-primary bg-opacity-50 h-[3px] ml-7 mr-7;
+}
+
+.copyrightpara {
+  @apply text-primary text-center my-5;
+}
+
+.copyrightpara {
+  @apply text-primary text-center my-5;
+}

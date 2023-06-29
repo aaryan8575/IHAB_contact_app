@@ -1,0 +1,13 @@
+.wrapper{
+    @apply bg-white rounded-lg text-[#2242D8] flex  gap-64 hover:border-2 border-blue-700 font-bold p-4 ml-3;
+}
+.images{
+
+@apply rounded-md ;
+}
+.current{
+    @apply text-gray-600
+}
+.current1{
+    @apply text-blue-600
+}

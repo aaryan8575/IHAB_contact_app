@@ -1,0 +1,27 @@
+.wrapper {
+  @apply flex justify-between items-center px-4 sm:px-12 py-4;
+}
+
+.leftcontainer {
+  @apply flex items-center text-primary;
+}
+
+.rightcontainer {
+  @apply flex items-center gap-10;
+}
+
+.navlinkslist {
+  @apply gap-5 hidden sm:flex;
+}
+
+.loginbutton {
+  @apply hidden sm:block;
+}
+
+.navlinkitems {
+  @apply hover:text-primary;
+}
+
+.hamburgermenu {
+  @apply sm:hidden;
+}

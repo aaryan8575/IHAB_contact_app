@@ -1,0 +1,135 @@
+.btn {
+  @apply flex justify-center rounded-md bg-primary m-2 px-3 py-1.5 font-semibold leading-6 text-white shadow-sm hover: bg-opacity-50 hover:text-primary items-center;
+
+  &>svg {
+    height: 0.875rem;
+    width: 0.875rem;
+    @apply m-1 fill-white;
+  }
+
+  &--small {
+    @apply text-xs px-2 py-1 m-1;
+
+    &>svg {
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+  }
+
+  &--large {
+    @apply text-lg px-4 py-2 m-1;
+
+    &>svg {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  &--error {
+    @apply bg-error bg-opacity-10 text-error hover: bg-error hover:bg-opacity-20 hover:text-error active:bg-opacity-50;
+
+    &>svg {
+      @apply fill-error;
+    }
+  }
+
+  &--outlined {
+    @apply bg-opacity-20 text-primary border-solid border-2 border-primary border-opacity-50 hover: bg-opacity-70 hover:text-white;
+  }
+
+  &--text {
+    @apply bg-opacity-20 text-primary hover: bg-opacity-70 hover:text-white;
+  }
+
+  &--text1 {
+    @apply bg-opacity-20 text-primary hover: bg-opacity-70 rounded-3xl hover:text-white;
+  }
+
+  &--text2 {
+    @apply bg-opacity-70 text-white;
+  }
+
+  &--text3 {
+    @apply bg-opacity-20 text-primary hover: bg-opacity-70 hover:text-white;
+
+    &>svg {
+      @apply mr-3 h-5 w-5;
+    }
+  }
+
+  &--text4 {
+    @apply bg-opacity-10 text-primary rounded-3xl hover: bg-primary hover:text-white pr-8;
+
+    @media (max-width:320px) {
+      white-space: pre;
+      color: blue;
+      background: #fff;
+    }
+
+    @media (max-width:640px) {
+      font-size: x-small;
+      color: blue;
+      background: #fff;
+    }
+
+    @media (max-width:720px) {
+      font-size: small;
+    }
+
+    @media (min-width:1254px) {
+      font-size: large;
+    }
+
+    &>svg {
+      @apply fill-black bg-white pe-2 px-2 rounded-2xl h-7 w-7 mr-5 ml-0;
+
+      @media (max-width:640px) {
+        background: rgba(244, 246, 253, 1);
+      }
+    }
+  }
+
+  &--text5 {
+    @apply bg-opacity-20 text-primary w-28 hover: bg-opacity-70 px-0 hover:text-white;
+  }
+
+  &--contained {
+    @apply bg-white text-primary hover: bg-primary hover:text-white;
+  }
+
+  &--withdraw {
+    @apply bg-white text-error hover: bg-error hover:bg-opacity-10 hover:text-error;
+  }
+
+  &--outlined2 {
+    @apply bg-white text-primary border-solid border-2 border-primary border-opacity-50;
+  }
+
+  &--icon {
+    @apply flex items-center justify-center bg-primary text-white border-none rounded-full p-2;
+  }
+
+  &--subscribe {
+    @apply bg-subscribe text-white;
+  }
+
+  &--using {
+    @apply bg-subscribe text-white;
+  }
+
+  &--close {
+    @apply flex items-center justify-center bg-white border-2 border-error rounded-full p-1 hover: text-error hover:bg-white;
+
+    &>svg {
+      @apply fill-error;
+    }
+  }
+
+  &--deleteCard {
+    @apply bg-error bg-opacity-10 text-black hover: bg-opacity-20 hover:text-error;
+
+    &>svg {
+      @apply fill-error;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.gridwrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fil,minmax(200px,400px));
+    background-color: #F4F6FD;
+}
+.title {
+    font-style: normal;
+    font-size: 28px;
+    line-height: 30px;
+    color: #2242D8;
+}
+.text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #555555;
+}

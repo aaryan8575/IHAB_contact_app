@@ -1,0 +1,30 @@
+.wrap {
+  @apply grid;
+}
+.pointbg {
+  @apply grid justify-center mx-auto bg-background rounded-full   w-6;
+}
+.hh3 {
+  @apply text-primary;
+}
+.points {
+  @apply w-3.5 h-3.5 rounded-full bg-primary mx-auto mt-5;
+}
+
+.data {
+  @apply grid;
+}
+.stepContainer {
+  @apply relative pl-5;
+}
+.stepContainer:before {
+  content: "";
+  @apply absolute block h-full w-5 top-0 left-0 bg-[#fff] rounded-full;
+}
+.stepperItem {
+  @apply relative;
+}
+.stepperItem:before {
+  @apply absolute top-[-13px] left-[-37px] w-3.5 h-3.5 rounded-full bg-primary mx-auto mt-5;
+  content: "";
+}

@@ -1,0 +1,40 @@
+.cardContainer {
+	@apply flex w-full justify-between items-center bg-[#F4F6FD] rounded-2xl py-2 px-4;
+}
+.infoContainer {
+	@apply flex gap-4 sm:gap-6 items-center justify-center;
+}
+.imageWrapper {
+	@apply relative w-[50px] aspect-[1/1] rounded-[50%] overflow-hidden text-primary;
+}
+.infoWrapper {
+	@apply flex flex-col justify-center;
+}
+.name {
+	@apply font-normal text-base sm:text-xl text-primary capitalize;
+}
+.profession {
+	@apply font-normal text-xs text-primary opacity-70 capitalize;
+}
+.inputWrapper {
+	@apply flex items-center gap-2 sm:gap-6;
+}
+.btn {
+	@apply bg-white text-primary capitalize text-xs sm:text-sm border-[1.5px] border-primary cursor-pointer py-1 px-2 sm:py-2 sm:px-6 rounded-full hover:text-white hover:bg-primary;
+}
+.checkbox {
+	@apply relative flex items-center justify-center box-border p-3 sm:p-4 bg-white border-[1.5px] border-primary rounded-full aspect-square cursor-pointer;
+}
+.checkboxInput {
+	@apply absolute opacity-0 w-0 h-0;
+}
+.checkmark {
+	@apply absolute w-full h-full hidden rounded-full;
+}
+.checkboxInput:checked ~ .checkmark {
+	@apply block bg-primary;
+}
+.checkmark::before {
+	@apply w-full h-full fill-current flex justify-center items-center;
+	content: url("data:image/svg+xml,%3Csvg%20width%3D%2218%22%20height%3D%2213%22%20viewBox%3D%220%200%2018%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M2%206.5L6.66118%2011L16%202%22%20stroke%3D%22white%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E");
+}

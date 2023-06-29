@@ -1,0 +1,11 @@
+.navLinkBtn {
+	@apply bg-background text-textGray hover:bg-primary hover:text-white active:bg-primary active:text-white flex items-center justify-start sm:justify-center lg:justify-start gap-4 px-[20%] py-4;
+}
+
+.navIcon {
+	@apply relative h-full;
+}
+
+.linkTitle {
+	@apply capitalize block sm:hidden lg:block;
+}

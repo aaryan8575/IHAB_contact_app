@@ -1,0 +1,25 @@
+@tailwind components;
+
+
+
+@layer components {
+
+  /* .container{
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  } */
+
+  .closebtn{
+    @apply flex justify-center items-center  bg-[#EAEDFB] rounded-[50%] ml-2 lg:h-10  lg:w-10; 
+    
+    &--no{
+      @apply hidden justify-center items-center bg-[#EAEDFB] rounded-[50%] ml-2 lg:h-8  lg:w-8;
+    }
+  }
+  .header {
+    @apply flex-1 text-center text-[#2242D8] lg:text-4xl md:text-4xl sm:text-4xl  font-bold;
+    
+    &--left{
+      @apply  flex-1 text-left text-[#2242D8] lg:text-4xl md:text-3xl sm:text-3xl font-bold;
+    }
+  }
+}

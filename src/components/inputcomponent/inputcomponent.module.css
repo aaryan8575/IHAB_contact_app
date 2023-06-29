@@ -1,0 +1,57 @@
+.txt_field {
+  @apply relative px-[5px] py-[5px] rounded-2xl;
+}
+
+.txt_field--small {
+  @apply w-1/3;
+}
+
+.txt_field--medium {
+  @apply w-1/2;
+}
+
+.txt_field--large {
+  @apply w-full;
+}
+
+.txt_field input {
+  @apply w-full h-[56px] border-2 border-black rounded-2xl text-black text-lg font-medium cursor-text outline-none mt-[7px] pl-[16px];
+}
+
+.txt_field label {
+  @apply absolute top-1/2 left-[20px] text-black transform -translate-y-1/2 text-base pointer-events-none transition duration-200;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+  @apply top-[20px] text-primary text-xs ml-[4px];
+}
+
+.txt_field input:focus,
+.txt_field input:valid {
+  @apply border-primary;
+}
+
+.txt_field input:hover {
+  @apply border-primary;
+}
+
+.input[type="email"]:focus {
+  @apply border-error;
+}
+
+.input[type="email"]:valid {
+  @apply border-primary;
+}
+
+.eyeIcon {
+  @apply absolute top-1/2 right-[20px] transform -translate-y-1/2 bg-white border-none p-0 cursor-pointer;
+}
+
+.eyeIcon img {
+  @apply w-[20px] h-[20px];
+}
+
+.eyeIcon:focus {
+  @apply outline-none;
+}

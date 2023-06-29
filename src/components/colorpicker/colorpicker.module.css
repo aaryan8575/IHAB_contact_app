@@ -1,0 +1,43 @@
+.mainDiv {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 80px)); */
+  display: flex;
+  gap: 10px;
+  padding: 1em;
+}
+
+.div0 {
+  @apply justify-center flex items-center pr-2 border-r-4 border-[#d3d3d3] max-sm:border-none;
+}
+
+.button0 {
+  @apply h-[50px] w-[50px] flex items-center overflow-hidden rounded-full relative;
+}
+
+.input0 {
+  @apply h-[70px] w-[70px] overflow-hidden m-[-3px];
+}
+
+.image0 {
+  @apply w-3 z-10 absolute top-[40%] left-[38%];
+}
+
+.div1 {
+  @apply justify-center flex items-center pr-2 border-r-4 border-[#d3d3d3] max-sm:border-none;
+}
+
+.button1 {
+  @apply h-[50px] w-[50px] rounded-full;
+}
+
+.image1 {
+  @apply h-2 w-2 bg-[#d3d3d3] rounded-full absolute flex;
+}
+
+.div2 {
+  @apply flex justify-center items-center;
+}
+
+.button {
+  @apply h-[50px] w-[50px] rounded-full;
+}

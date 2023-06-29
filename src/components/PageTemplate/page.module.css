@@ -1,0 +1,3 @@
+.pagelayout {
+	/* @apply sm:grid grid-cols-[20%_80%] min-h-screen max-w-screen; */
+}

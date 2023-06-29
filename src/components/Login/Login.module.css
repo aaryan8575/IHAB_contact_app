@@ -1,0 +1,67 @@
+.container {
+    @apply flex flex-wrap mx-auto h-screen;
+  }
+  
+  .leftSection {
+    @apply w-1/2 flex flex-col sm:bg-blue-200 max-sm:w-full relative;
+  }
+  .leftcontent {
+    @apply grid justify-items-center ml-5;
+  }
+  .text h1 {
+    @apply text-[32px] mb-2 mt-2;
+  }
+  
+  .text {
+    @apply font-bold text-[18px] text-blue-900 h-1/2 mt-[70px] relative;
+  }
+  .vector1 {
+    @apply absolute -top-7 -left-12 h-14 max-sm:hidden;
+  }
+  
+  .vector2 {
+    @apply absolute top-[70px] left-[365px] h-14 max-sm:hidden;
+  }
+  
+  .imageContainer {
+    @apply mt-16 mb-0  max-sm:hidden absolute bottom-0;
+  }
+  
+  .image {
+    @apply inset-x-0 bottom-0 right-0 h-[420px] mb-0;
+  }
+  
+  .vector3 {
+    @apply absolute h-14 -top-1 left-[245px];
+  }
+  .rightSection {
+    @apply w-1/2 mt-5 flex flex-col content-center items-center max-sm:w-full;
+  }
+  .contant {
+    @apply text-center mt-[55px];
+  }
+  
+  .input {
+    @apply p-3;
+  }
+  
+  .button {
+    @apply ml-4 p-2 border-2 border-blue-800 rounded-2xl mb-4;
+  }
+  
+  .button img {
+    @apply h-5;
+  }
+  
+  .span {
+    color: gray;
+    font-size: 12px;
+  }
+  
+  .OTP {
+    @apply w-52 bg-blue-500 text-white h-12 rounded-2xl;
+  }
+  
+  .cancel {
+    @apply mt-5 h-8 w-16 text-red-500;
+  }

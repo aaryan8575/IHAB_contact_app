@@ -1,0 +1,62 @@
+.main {
+  @apply flex flex-col;
+}
+
+.profile_photo_title {
+  @apply font-medium text-2xl leading-10 flex justify-center mb-5;
+  font-family: "Plus Jakarta Display";
+  margin-right: 235px;
+}
+
+.profile_photo_wrapper {
+  @apply flex items-center justify-center;
+}
+
+.profile_photo {
+  @apply mr-5 w-36 h-36 bg-PhotoBg flex items-center rounded-3xl justify-center overflow-hidden;
+  /* border-radius: 30px; */
+}
+
+.profile_photo img {
+  @apply w-full h-full object-cover;
+}
+
+.custom_file_upload {
+  @apply bg-buttonBg p-0 pt-0 pl-8 pr-8 cursor-pointer text-center rounded-3xl font-medium text-xl leading-10 text-blue-600 flex items-center justify-between flex-row-reverse;
+  font-family: "Plus Jakarta Display";
+  /* border-radius: 80px; */
+}
+
+.custom_file_upload img {
+  @apply mr-6 mb-1 h-5;
+}
+
+.custom_file_upload p {
+  @apply mt-2 font-medium;
+  font-family: "Plus Jakarta Display";
+  margin: 5px 0 9px;
+}
+.photo_upload_input{
+  @apply hidden;
+}
+.vector {
+  @apply mb-7 ml-5;
+}
+
+@media (max-width: 768px) {
+  .profile_photo_wrapper {
+    @apply flex-col;
+  }
+
+  .profile_photo {
+    @apply mr-0 mb-5;
+  }
+
+  .custom_file_upload {
+    @apply mt-5 flex-row;
+  }
+
+  .custom_file_upload img {
+    @apply mr-0 mb-0 ml-2;
+  }
+}

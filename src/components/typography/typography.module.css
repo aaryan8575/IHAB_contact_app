@@ -1,0 +1,53 @@
+ .h1{
+    @apply text-h1;
+} 
+
+.h2{
+    @apply text-h2;
+}
+
+.h3{
+    @apply text-h3;
+}
+
+.h4{
+    @apply text-h4;
+}
+
+.h5{
+    @apply text-h5;
+}
+
+.h6{
+    @apply text-h6;
+}
+.subtitle1{
+    @apply text-subtitle1;
+}
+.subtitle2{
+    @apply text-subtitle2;
+}
+.body1{
+    @apply text-body1;
+}
+.body2{
+    @apply text-body2;
+}
+.body3{
+    @apply text-body3;
+}
+.buttontext1{
+    @apply text-buttontext1;
+}
+.buttontext2{
+    @apply text-buttontext2;
+}
+.captiontext1{
+    @apply text-captiontext1;
+}
+.captiontext2{
+    @apply text-captiontext2;
+}
+/* .overline-text{
+    @apply text-overlinetext;
+} */

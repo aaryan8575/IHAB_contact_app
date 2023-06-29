@@ -1,0 +1,66 @@
+@layer{
+    .wrap{
+    
+        @apply grid;
+    }
+
+    @layer base {
+        body{
+          background-color: rgb(232, 243, 243);
+        }
+        h1 {
+          @apply font-bold text-6xl;
+        }
+      }
+    .main1{
+        display: grid;
+        grid-template-columns: 0.25fr 2fr;
+        grid-template-areas:
+        "dots datas"
+    
+    }
+    
+    .pointbg{
+    
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "points"
+        "points"
+        "points"
+        "points"
+        "points"
+        "points";
+        @apply justify-center mx-auto bg-white rounded-full  w-6 ;
+    
+        grid-area: dots;
+    
+    }
+    .datas{
+        grid-area: datas;
+    }
+    .hh3{
+        @apply text-[#2832C2];
+    }
+    .outPoints{
+        grid-area: points;
+        @apply h-[48px] flex items-baseline justify-center mt-5 mb-5;
+        
+    }
+    .points{
+        @apply  w-3.5 h-3.5 mt-1 rounded-full bg-[#2832C2];
+    }
+    .steps{
+        grid-area: steps;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "datas"
+        "datas"
+        "datas"
+        "datas"
+        "datas"
+        "datas";
+        
+    }
+    
+    
+    }

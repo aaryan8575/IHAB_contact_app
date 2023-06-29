@@ -1,0 +1,35 @@
+.form {
+  @apply flex items-center space-x-6 justify-center mt-3;
+}
+
+.logoContainer {
+  @apply shrink-0 h-[150px] w-[150px] bg-[#E9ECFB] rounded-[26px] flex items-center justify-center;
+}
+
+.chooseFileContainer {
+  @apply bg-[#E9ECFB] h-[55.63px] w-[210px] rounded-[37.5497px] flex flex-row items-center justify-center;
+}
+
+.paragraph {
+  @apply font-normal font-mono not-italic text-[16.6887px] p-4 text-black;
+}
+
+.paragraph {
+  @apply font-normal font-mono not-italic text-[16.6887px] p-4 text-black;
+}
+
+.icon {
+  @apply h-[23px] w-[24px];
+}
+
+.logo {
+  @apply h-[69px] w-[90px] object-cover rounded-lg;
+}
+
+.image {
+  @apply h-full w-full object-cover rounded-lg;
+}
+
+.btn {
+  @apply hidden;
+}

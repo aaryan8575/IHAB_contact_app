@@ -1,0 +1,145 @@
+.priceCard{
+    @apply p-5 m-3 basis-72 flex-1 rounded-2xl text-center max-w-sm
+}
+
+
+.priceCard--yellow{
+    background-color: #F6DE80;
+}
+.priceCard--yellow  .cardTextColor {
+    color: #695712;
+}
+.priceCard--yellow .costBox {
+    background-color: #E4CE45;
+}
+.priceCard--yellow .btnBorder {
+    border-top-width: 2.5px ;
+    border-block-color: #695712  ;
+
+}
+.priceCard--yellow .btn {
+    background-color: #695712 ;
+    color: #FFFFFF ;
+    font-weight: 500;
+}
+
+.priceCard--yellow svg {
+    stroke: #695712;
+}
+
+
+
+
+
+/* body: "#F9D9AA",
+text: "#896126",
+button: "#896126",
+buttonText: "#FFFFFF",
+priseBox : "#FEBB58"
+ */
+
+
+
+.priceCard--orange{
+    background-color: #F9D9AA;
+}
+.priceCard--orange  .cardTextColor {
+    color: #896126;
+}
+.priceCard--orange .costBox {
+    background-color: #FEBB58;
+}
+.priceCard--orange .btnBorder {
+    border-top-width: 2.5px ;
+    border-block-color: #896126 ;
+
+}
+.priceCard--orange .btn {
+    background-color: #896126 ;
+    color: #FFFFFF ;
+    font-weight: 500;
+}
+
+.priceCard--orange svg {
+    stroke: #896126;
+}
+
+
+
+/* body: "#ABD4FF",
+text: "#1A5088",
+button: "#1A5088",
+buttonText: "#FFFFFF",
+priseBox : "#8FC9F9"  
+ */
+
+
+.priceCard--blue{
+    background-color: #ABD4FF;
+}
+.priceCard--blue  .cardTextColor {
+    color: #1A5088;
+}
+.priceCard--blue .costBox {
+    background-color: #8FC9F9;
+}
+.priceCard--blue .btnBorder {
+    border-top-width: 2.5px ;
+    border-block-color: #1A5088  ;
+
+}
+.priceCard--blue .btn {
+    background-color: #1A5088 ;
+    color: #FFFFFF ;
+    font-weight: 500;
+}
+
+.priceCard--blue svg {
+    stroke:#1A5088;
+}
+
+
+
+
+/* body: "#000000",
+text: "#FFFFFF",
+button: "#FFFFFF",
+buttonText: "#000000",
+priseBox : "#292929"     */
+
+
+.priceCard--black{
+    background-color: #000000;
+}
+.priceCard--black  .cardTextColor {
+    color: #FFFFFF;
+}
+.priceCard--black .costBox {
+    background-color: #292929;
+}
+.priceCard--black .btnBorder {
+    border-top-width: 2.5px ;
+    border-block-color: #FFFFFF ;
+
+}
+.priceCard--black .btn {
+    background-color: #FFFFFF ;
+    color: #000000 ;
+    font-weight: 500;
+}
+
+.priceCard--black svg {
+    stroke:#FFFFFF;
+}
+
+
+
+
+.true {
+    
+}
+
+.false{
+    opacity: 0.6;
+}
+

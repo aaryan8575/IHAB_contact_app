@@ -1,0 +1,212 @@
+.parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  z-index: 10;
+}
+.card {
+  max-width: 500px;
+  min-width: 400px;
+  max-height: 584px;
+  width: 100%;
+  margin: 70px 660px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  margin: 20px 0px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.subheader2 {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 20px;
+  border-radius: 100%;
+  background-color: #eaedfb;
+  justify-content: center;
+  align-items: center;
+}
+
+.subheader1 {
+  color: #2242d8;
+  font-family: "Plus Jakarta Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.queue {
+  width: 200px;
+  height: 200px;
+  background-color: #2242d8;
+  align-self: center;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qrcode {
+  width: 170px;
+  height: 170px;
+  position: relative;
+}
+.white {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.subpart {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-self: center;
+  /* border: 1px solid black; */
+}
+
+.tap {
+  text-align: center;
+  margin: 0px 10px;
+  color: #2242d8;
+  font-family: "Plus Jakarta Display", sans-serif;
+  font-style: normal;
+  font-size: small;
+  font-weight: 200;
+}
+
+.copylink {
+  margin: 20px;
+  max-width: 160px;
+  border-radius: 12px;
+  background-color: #eaedfb;
+  align-self: center;
+}
+
+.para {
+  padding: 10px 18px;
+  text-align: center;
+  font-family: "Plus Jakarta Display", sans-serif;
+  font-style: normal;
+  font-size: small;
+  font-weight: 600;
+  color: #2242d8;
+}
+
+.socialmedia {
+  width: 100%;
+  max-width: 240px;
+  margin-bottom: 20px;
+  background-color: rgba(234, 237, 251, 0.5);
+  align-self: center;
+  border-radius: 15px;
+}
+
+.direct {
+  margin: 8px 20px;
+}
+
+.directpara {
+  font-size: small;
+  font-family: "Plus Jakarta Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #2242d8;
+}
+
+.logos {
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.instagram {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.ins {
+  display: flex;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}
+
+.facebook {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.fb {
+  display: flex;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}
+
+.twitter {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.twi {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.linkedin {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.lin {
+  display: flex;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,93 @@
+/* .leftcontainer{
+    display: flex;
+    flex: 1 1 0%;
+    flex-basis: 320px;
+    background-color: #CDD4F7;
+    justify-content: center;
+}
+
+@media (max-width: 640px) {
+    .leftcontainer{
+       // /* background-color: transparent; */
+        /* height:35%;
+        justify-content: flex-start;
+    }
+    
+} */
+
+
+/* login.module.css */
+
+.container {
+    @apply flex flex-wrap h-screen;
+  }
+  
+  .leftSection {
+    @apply w-1/2 px-4 flex flex-col md:bg-blue-200 max-md:w-full;
+  }
+  .leftcontent {
+    @apply grid justify-items-center;
+  }
+  
+  .text {
+    @apply font-bold text-[18px] text-primary h-1/2 mt-[40px] md:mt-[70px] relative;
+  }
+  .vector1 {
+    @apply h-16 absolute -top-[2rem] -left-[4rem] max-md:hidden;
+  }
+  
+  .vector2 {
+    @apply h-16 absolute -bottom-[4.5rem] -right-[2.25rem] max-md:hidden;
+  }
+  
+  .imageContainer {
+    @apply mt-[83px] mb-0 relative max-md:hidden;
+  }
+  
+  .image {
+    @apply inset-x-0 bottom-0 right-0 h-[420px] ;
+  }
+  
+  .vector3 {
+    @apply h-16 absolute -top-[0.5rem] left-[250px];
+  }
+  /* .image img {
+    @apply h-20;
+  } */
+  
+  .rightSection {
+    @apply w-1/2 m-auto flex flex-col items-center justify-center max-md:w-full;
+  }
+  .contant {
+    @apply text-center ;
+  }
+
+  .input {
+    @apply p-3;
+  }
+  
+  .button {
+    @apply ml-4 p-2 border-2 border-primary rounded-full mb-4 hover:bg-gray-200;
+  }
+  .buttons{
+    @apply mt-[60px] md:mt-[75px];
+  }
+  
+  .button img {
+    @apply h-5;
+  }
+  
+  .span {
+    color: gray;
+  }
+
+  .accountDiv {
+    margin-bottom: 10px;
+  }
+  
+  .login {
+    @apply w-52 bg-primary text-white h-12 rounded-2xl hover:bg-blue-800;
+  }
+  .cancel {
+    @apply mt-2 h-12 w-52 text-red-500 border-red-500 hover:bg-red-200 hover:rounded-2xl max-md:hidden;
+  }

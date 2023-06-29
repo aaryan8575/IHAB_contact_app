@@ -1,0 +1,19 @@
+.snapCard {
+	@apply snap-start scroll-mx-6 w-auto grid grid-cols-[1fr_1fr_1fr] items-center gap-3 sm:gap-4 p-3 sm:p-4 rounded-2xl border-[1px] text-primary bg-opacity-10 hover:bg-primary hover:text-white hover:border-primary cursor-pointer duration-300;
+}
+
+.imgWrapper {
+	@apply relative h-10 w-10 sm:h-16 sm:w-16;
+}
+
+.infoWrapper {
+	@apply flex flex-col gap-1;
+}
+
+.userName {
+	@apply text-sm sm:text-base font-bold;
+}
+
+.userEmail {
+	@apply text-xs sm:text-sm;
+}

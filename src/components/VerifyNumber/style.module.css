@@ -1,0 +1,22 @@
+.bgBlur {
+	background-color: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(20px);
+	@apply p-10;
+}
+
+.inputContainer {
+	@apply flex items-center sm:gap-6 justify-between w-full;
+}
+
+.digitInput {
+	@apply w-16 max-w-[20%] h-12 border-[1px] border-primary rounded-xl text-center;
+}
+
+input.otp::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input.otp[type="number"] {
+	-moz-appearance: textfield;
+}

@@ -1,0 +1,85 @@
+.main {
+  height: 50px;
+}
+.name {
+  @apply font-bold text-2xl text-blue-600 ml-6 mt-2;
+}
+.profession {
+  @apply font-mono font-semibold text-sm text-blue-600;
+}
+.btn {
+  @apply w-20 h-9 mt-2 bg-white border-2 border-blue-600 text-blue-600 rounded-full text-sm cursor-pointer;
+}
+.btn:hover {
+  @apply text-white bg-blue-600;
+}
+.checkbox {
+  @apply w-9 h-9 mt-2 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center relative;
+}
+.checkboxInput {
+  @apply absolute opacity-0 w-0 h-0;
+}
+.checkmark {
+  @apply absolute w-full h-full flex items-center justify-center hidden;
+}
+.checkboxInput:checked ~ .checkmark {
+  @apply block rounded-full bg-blue-600;
+}
+.checkmark::before {
+  content: url("data:image/svg+xml,%3Csvg%20width%3D%2218%22%20height%3D%2213%22%20viewBox%3D%220%200%2018%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M2%206.5L6.66118%2011L16%202%22%20stroke%3D%22white%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E");
+  @apply w-full h-full fill-white flex items-center justify-center;
+}
+.parent {
+  @apply border  max-w-[1100px] w-full;
+}
+.header {
+  @apply border rounded-md bg-[#F4F6FD] mb-20 flex justify-between items-center ml-4;
+}
+
+.subhead {
+  @apply m-6 gap-16 flex items-center;
+}
+.logo {
+  @apply w-9 h-9 ml-4;
+}
+.export {
+  @apply self-center;
+}
+.exportpara {
+  @apply text-2xl font-semibold text-blue-600;
+}
+.arrowicon {
+  @apply w-9 h-9 flex justify-center items-center absolute top-3 right-3;
+}
+.arrowimag {
+  @apply self-center;
+}
+.bodycontent {
+  @apply border  rounded-sm bg-[#F4F6FD];
+}
+
+.bodyheader {
+  @apply border  justify-between flex items-center;
+}
+.paragraph {
+  @apply border  rounded-xl ml-14 mr-4 bg-white relative flex mt-2;
+}
+.para {
+  @apply m-4 mr-10 min-w-[200px];
+}
+.tex {
+  @apply font-semibold text-blue-600 text-lg self-center;
+}
+
+.button {
+  @apply border  flex  justify-center items-center gap-5 absolute top-0 right-0 bg-blue-600 top-2.5 mr-2 rounded-2xl;
+}
+.icon {
+  @apply w-5 h-5 ml-2;
+}
+.iconcontent {
+  @apply m-2 mr-4;
+}
+.connect {
+  @apply px-4 text-center font-semibold text-white self-center;
+}

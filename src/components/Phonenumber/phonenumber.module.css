@@ -1,0 +1,12 @@
+.phone {
+  @apply flex;
+}
+.countrycode {
+  @apply p-2  border rounded-l-lg;
+}
+.code {
+  @apply appearance-none outline-none;
+}
+.number {
+  @apply p-2.5 text-primary bg-white border rounded-r-lg shadow-sm outline-none appearance-none;
+}

@@ -1,0 +1,15 @@
+.wrapper{
+    @apply box-border bg-card w-4/5 h-40 rounded-3xl ml-8 mt-10;
+}
+.logo_icon{
+    @apply ml-32 gap-4;
+}
+.group_icon{
+    @apply ml-48 -mt-4;
+}
+.logo_icon3{
+    @apply ml-32 gap-4 rounded-2xl;
+}
+.text{
+    @apply text-2xl text-border font-bold ml-72 mt-60;
+}

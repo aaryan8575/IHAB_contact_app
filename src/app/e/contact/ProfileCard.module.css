@@ -1,0 +1,286 @@
+/* @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");   */
+
+.ProfileCard {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  width: 100%;
+  max-width: 1383px;
+  height: 80px;
+  background: #F4F6FD;
+  border-radius: 20px;
+  align-items: center;
+  padding: 0 21px;
+  flex-basis: auto;
+}
+
+.profilePicture {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  flex-basis: auto;
+}
+
+.name {
+  font-family: 'Plus Jakarta Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #2242D8;
+  line-height: 16px;
+  margin: 5px;
+}
+
+.profession {
+  font-family: 'Plus Jakarta Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #7085E6;
+  line-height: 12px;
+  margin: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.viewButton {
+  box-sizing: border-box;
+  width: 82px;
+  height: 37px;
+  background: #FFFFFF;
+  border: 1.5px solid #2242D8;
+  color: #2243D8;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  justify-self: end;
+}
+
+.viewButton:hover {
+  color: #FFFFFF;
+  background: #2243D8;
+}
+
+.checkbox {
+  box-sizing: border-box;
+  width: 37px;
+  height: 37px;
+  background: #ffffff;
+  border: 1.13341px solid #2242D8;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.checkboxInput {
+  position: absolute;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}
+
+.checkmark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.checkboxInput:checked ~ .checkmark {
+  display: block;
+  border-radius: 50%;
+  background: #2243D8;
+}
+
+.checkmark::before {
+  content: url("data:image/svg+xml,%3Csvg%20width%3D%2218%22%20height%3D%2213%22%20viewBox%3D%220%200%2018%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M2%206.5L6.66118%2011L16%202%22%20stroke%3D%22white%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E");
+  width: 100%;
+  height: 100%;
+  fill: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 326px) and (max-width: 2000px) {
+  .ProfileCard {
+    padding: 0 20px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+
+  .details {
+    flex: 1;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 326px) {
+  .ProfileCard {
+    padding: 0 15px;
+    height: 60px;
+    margin-bottom: 10px;
+    min-width: 326px;
+  }
+
+  .details {
+    flex: 1;
+    margin-left: 18px;
+  }
+
+  .profilePicture {
+    width: 38px;
+    height: 38px;
+  }
+
+  .name {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+
+  .profession {
+    font-size: 9px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+ 
+  .viewButton {
+    display: none;
+  }
+
+  .checkbox {
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+  }
+
+  .checkmark::before {
+    content: url("data:image/svg+xml,%3Csvg%20width%3D%2211%22%20height%3D%228%22%20viewBox%3D%220%200%2011%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1%203.83L3.83%206.66L9.5%201%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E");
+    height: 92%;
+  }
+  
+}
+/* @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
+
+.ProfileCard {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  width: 100%;
+  max-width: 1383px;
+  height: 80px;
+  background: #F4F6FD;
+  border-radius: 20px;
+  align-items: center;
+  padding: 0 20px;
+  flex-basis: auto;
+}
+
+.profilePicture {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.details {
+  margin-left: 30px;
+}
+
+.name {
+  font-family: 'Plus Jakarta Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #2242D8;
+  line-height: 16px;
+  margin: 5px;
+}
+
+.profession {
+  font-family: 'Plus Jakarta Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #7085E6;
+  line-height: 12px;
+  margin: 5px;
+}
+
+.viewButton {
+  box-sizing: border-box;
+  width: 82px;
+  height: 37px;
+  background: #FFFFFF;
+  border: 1.5px solid #2242D8;
+  color: #2243D8;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  justify-self: end;
+  margin-left: 15px;
+}
+
+.viewButton:hover {
+  color: #FFFFFF;
+  background: #2243D8;
+}
+
+@media (min-width: 326px) and (max-width: 2000px) {
+  .ProfileCard {
+    padding: 0 20px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+
+  .details {
+    flex: 1;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 326px) {
+  .ProfileCard {
+    padding: 0 15px;
+    height: 60px;
+    margin-bottom: 10px;
+    min-width: 326px;
+  }
+
+  .details {
+    flex: 1;
+    margin-left: 18px;
+  }
+
+  .profilePicture {
+    width: 38px;
+    height: 38px;
+  }
+
+  .name {
+    font-size: 12px;
+    margin-bottom
+  } */

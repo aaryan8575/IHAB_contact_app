@@ -1,0 +1,131 @@
+.barchart1 {
+  @apply -mt-20;
+}
+
+.logo_icon {
+  @apply -mt-3;
+}
+
+.desc1 {
+  @apply ml-6;
+}
+
+.desc2 {
+  @apply ml-6 mt-3 text-light mr-2;
+}
+
+.desc3 {
+  @apply ml-6 mt-3 text-light;
+}
+
+.desc3>h3 {
+  @apply ml-80;
+}
+
+.header2 {
+  @apply mt-3 text-light;
+}
+
+.header3 {
+  @apply ml-16 text-base text-textblue;
+}
+
+.header4 {
+  @apply ml-8 text-base text-textblue;
+}
+
+.header5 {
+  @apply ml-16 text-base text-textblue;
+}
+
+.header6 {
+  @apply ml-20 text-base text-textblue;
+}
+
+.des {
+  @apply ml-12 text-black font-bold;
+}
+
+.des1 {
+  @apply ml-32 text-black font-bold;
+}
+
+.des3 {
+  @apply text-black font-bold;
+}
+
+.des4 {
+  @apply text-black font-bold;
+}
+
+.des5 {
+  @apply text-black font-bold;
+}
+
+.des7 {
+  @apply text-black font-bold text-border;
+}
+
+.desc4 {
+  @apply ml-6;
+}
+
+.demo2 {
+  @apply h-20 flex items-center gap-4 bg-white mb-4 rounded-lg mt-4  ;
+}
+
+.demo3 {
+  @apply h-12 bg-white rounded-lg gap-4 flex items-center mt-4  ;
+}
+
+.demo4 {
+  @apply flex justify-between mt-4 pr-6;
+}
+
+.phone_icon {
+  @apply ml-4 flex justify-center;
+}
+
+.link_icon {
+  @apply ml-4;
+}
+
+.name {
+  @apply ml-6 font-bold  text-xl  font-mono mt-3 flex justify-between;
+}
+
+.wrapper {
+  @apply gap-4 grid md:grid-cols-3 p-4 ;
+}
+
+.demo {
+  @apply bg-antiwhite border-2 border-border rounded-3xl col-span-1;
+}
+
+.moreoptions {
+  @apply grid md:grid-cols-2;
+}
+
+.optionheader {
+  @apply h-10 w-48 ml-6 text-3xl font-mono font-bold;
+}
+
+.container1 {
+  @apply grid m-4 h-20 bg-white rounded-2xl mt-3;
+}
+
+.edit_icon {
+  @apply mt-6 justify-center ml-6;
+}
+
+.edit_text {
+  @apply -mt-10 justify-center text-border ml-16;
+}
+
+.delete_text {
+  @apply text-error justify-center -mt-10 ml-16;
+}
+
+.option {
+  @apply rounded-2xl bg-lightblue w-[100%];
+}
